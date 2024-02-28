@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="20dp"
+    android:orientation="vertical">
+
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/imgNews"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@color/black"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="News"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginTop="8dp"
+        android:id="@+id/tvNews"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="News Deskripsi"
+        android:textSize="12sp"
+        android:id="@+id/tvNewsDesc"/>
+
+</LinearLayout>
